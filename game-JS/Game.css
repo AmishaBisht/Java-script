@@ -1,0 +1,40 @@
+body{
+	padding: 30px;
+	border:25px solid green;
+}
+#image {
+	object-fit: cover;
+}
+.card {
+	display: flex;
+	margin: 30px;
+	width: 18rem;
+	height: 18rem;
+	cursor: pointer;
+	transition: 100ms;
+	background-color: solid black;
+}
+.card:hover {
+	transform: scale(1.2);
+
+}
+.result{
+	display: grid;
+	justify-content: center;
+	grid-template-columns: repeat(2,1fr);
+}
+
+.container{
+	padding: 30px;
+	background-color: black;
+	margin: 50px;
+}
+.result-winner{
+	opacity: 1;
+	size:1.2rem;
+
+}
+.result-selection{
+	opacity: .5;
+
+}

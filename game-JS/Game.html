@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="stylesheet" type="text/css" href="Game.css">
+	<title>Game</title>
+</head>
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+<body>
+	<header class="header">
+		<center>
+		  <h1><b>Rock Paper Scissors</b></h1>
+		  <h2><i>Try your luck!</i></h2>
+		</center>
+	</header>
+    <div class="container">
+		<div class="row">
+			  <div class="col-sm-4">
+			    <div class="card">
+			      <div class="card-body">
+			        <img class="selection" data-selection="rock" id="image" src="rock.png" height="250" width="250">
+			      </div>
+			    </div>
+			  </div>
+			   <div class="col-sm-4">
+			    <div class="card">
+			      <div class="card-body">
+			        <img  class="selection" data-selection="paper" id="image" src="paper.png" height="250" width="250">
+			      </div>
+			    </div>
+			  </div>
+			   <div class="col-sm-4">
+			    <div class="card">
+			      <div class="card-body">
+			        <img class="selection" data-selection="scissor" id="image" src="scissor.png" height="250" width="250">
+			      </div>
+			    </div>
+			  </div>
+		</div>
+	</div>
+	<center>
+	<div class="result">
+		<div><h3 id="you">You: <span class="result-score" data-your-score> 0</span></h3></div>
+		<div data-final-column><h3>Computer: <span class="result-score" data-computer-score> 0</span></h3></div>
+		<!-- <div class="result-winner"><img src="rock.png" height="120" width="120"></div>
+        <div class="result-selection"><img src="scissor.png" height="100" width="100"></div>
+    </div> -->
+    </center>
+</body>
+<script type="text/javascript" src="Game.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+</html>
